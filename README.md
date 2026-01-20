@@ -17,3 +17,5 @@ The smart waste sorting system uses an ESP32-CAM with an HC-SR04 ultrasonic sens
 
 On the ESP32-CAM, sends the class via ESP-NOW. The receiver ESP32 (WiFi STA + ESP-NOW) handles data in OnDataRecv, mapping to two servo motors physically tilts/rotates the bin to drop the item into the correct compartment.. It displays on LCD, monitors bins with three HC-SR04 and show the bin fill level as a percentage, also provides a web based dashboard for monitoring and manual control.
 
+![esp32_controller_bb](https://github.com/user-attachments/assets/af75d4f3-fbda-4351-ab0e-2f9307a481ef)
+
